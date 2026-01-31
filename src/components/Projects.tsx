@@ -41,7 +41,7 @@ const projects = [
     title: "Online Bid",
     description:
       "A architectural website to plan your building or home (Hebrew Language)",
-    skills: ["/HTML.png",],
+    skills: [ "HTML.png", "CSS.png", "Javascript.svg", "Tailwind.png", "Vercel.svg "],
     live: "",
     github: "https://github.com/abhishekallapur12",
     bgImage: "/pr3.png",
@@ -95,7 +95,7 @@ const Projects: React.FC = () => {
                     <img
                       key={i}
                       className="projectSkill"
-                      src={`/stack/${skill}`}
+                      src={skill.startsWith("/") ? skill : `/${skill}`}
                       alt={skill}
                     />
                   ))}
