@@ -11,7 +11,7 @@ const projects = [
       "A frontend clone of Razorpay, a popular online payment gateway. The primary goal of this project was to replicate the user interface and key functionalities of Razorpay on the frontend.",
     skills: ["HTML.png", "CSS.png", "Javascript.svg", "Tailwind.png", "Vercel.svg"],
     live: "https://www.hawkaerosystem.co.uk/",
-    github: "https://github.com/AayushBharti/Razorpay-clone",
+    github: "https://github.com/abhishekallapur12/Web-OS",
     bgImage: "./projects/image.png",
   },
   {
