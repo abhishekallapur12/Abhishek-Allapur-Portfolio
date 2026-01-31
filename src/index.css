@@ -1,0 +1,147 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add to globals.css */
+@layer utilities {
+  .hover\:border-gradient:hover {
+    border-image: linear-gradient(to right, #00f2fe, #4facfe);
+    border-image-slice: 1;
+  }
+
+  .animate-border-glow {
+    animation: glow 2.5s ease-in-out infinite alternate;
+  }
+
+  @keyframes glow {
+    0% {
+      box-shadow: 0 0 10px #00f2fe40;
+    }
+    100% {
+      box-shadow: 0 0 20px #4facfe80;
+    }
+  }
+}
+
+
+
+@keyframes floating {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+.animate-floating {
+  animation: floating 3s ease-in-out infinite;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 20s linear infinite;
+}
+
+
+/* In globals.css or your main sty
+lesheet */
+@keyframes float-slow {
+  0%, 100% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-30px) scale(1.05);
+  }
+}
+
+
+@keyframes float-slower {
+  0%, 100% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(30px) scale(1.02);
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+
+
+@keyframes slideIcons {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-10%);
+  }
+}
+
+@keyframes scrollIcons {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll-continuous {
+  animation: scrollIcons 20s linear infinite;
+  display: flex;
+  white-space: nowrap;
+}
+@keyframes borderGlow {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.animate-borderMove {
+  background-size: 200% 200%;
+  animation: borderGlow 3s linear infinite;
+}
+
+/* Smoky reveal behind text */
+.smoke-reveal {
+  position: absolute;
+  inset: -40px;
+  pointer-events: none;
+  background: radial-gradient(
+    220px circle at var(--mx, 50%) var(--my, 50%),
+    rgba(207, 158, 255, 0.35),
+    rgba(207, 158, 255, 0.15) 35%,
+    rgba(0, 0, 0, 0) 70%
+  );
+  filter: blur(30px);
+  opacity: 0;
+  transition: opacity 0.35s ease;
+}
+.smoke-active .smoke-reveal {
+  opacity: 1;
+}
