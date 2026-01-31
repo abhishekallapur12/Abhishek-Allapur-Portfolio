@@ -97,11 +97,11 @@ const Contact = () => {
             <div className="mt-8 pt-8 border-t border-white/10 text-center">
               <div className="flex justify-center items-center space-x-6">
                 <a 
-                  href="mailto:john.doe@example.com"
+                  href="abhishekallapur1234@example.com"
                   className="flex items-center text-gray-400 hover:text-white transition-colors"
                 >
                   <Mail size={20} className="mr-2" />
-                  john.doe@example.com
+                abhishekallapur1234@example.com
                 </a>
                 <a 
                   href="#"
