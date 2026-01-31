@@ -12,7 +12,7 @@ const projects = [
     skills: ["HTML.png", "CSS.png", "Javascript.svg", "Tailwind.png", "Vercel.svg"],
     live: "https://www.hawkaerosystem.co.uk/",
     github: "https://github.com/abhishekallapur12/Web-OS",
-    bgImage: "./image.png",
+    bgImage: "/image.png",
   },
   {
     id: "project2",
@@ -41,7 +41,7 @@ const projects = [
     title: "Online Bid",
     description:
       "A architectural website to plan your building or home (Hebrew Language)",
-    skills: ["HTML.png", "CSS.png", "Javascript.svg", "Tailwind.png", "Vercel.svg"],
+    skills: ["/HTML.png",],
     live: "",
     github: "https://github.com/abhishekallapur12",
     bgImage: "/pr3.png",
