@@ -78,15 +78,15 @@ const Hero: React.FC = () => {
   <div className="flex justify-center gap-6 animate-slideIcons">
     <div className="flex gap-8 animate-marquee whitespace-nowrap">
       {[
-        '/icons/Bootstrap.svg',
-        '/icons/Docker.svg',
-        '/icons/Express.png',
-        '/icons/faa.svg',
-        '/icons/Git.svg',
-        '/icons/HTML.png',
-        '/icons/Javascript.svg',
-        '/icons/React.png',
-        '/icons/Typescript.svg',
+        '/public/Bootstrap.svg',
+        '/public/Docker.svg',
+        '/public/Express.png',
+        '/public/faa.svg',
+        '/public/Git.svg',
+        '/public/HTML.png',
+        '/public/Javascript.svg',
+        '/public/React.png',
+        '/public/Typescript.svg',
       ].flatMap((icon, i) => (
         <div
           key={`icon-${i}`}
@@ -98,15 +98,15 @@ const Hero: React.FC = () => {
 
       {/* Duplicate icons for seamless loop */}
       {[
-        '/icons/Bootstrap.svg',
-        '/icons/Docker.svg',
-        '/icons/Express.png',
-        '/icons/faa.svg',
-        '/icons/Git.svg',
-        '/icons/HTML.png',
-        '/icons/Javascript.svg',
-        '/icons/React.png',
-        '/icons/Typescript.svg',
+         '/public/Bootstrap.svg',
+        '/public/Docker.svg',
+        '/public/Express.png',
+        '/public/faa.svg',
+        '/public/Git.svg',
+        '/public/HTML.png',
+        '/public/Javascript.svg',
+        '/public/React.png',
+        '/public/Typescript.svg',
       ].map((icon, i) => (
         <div
           key={`icon-duplicate-${i}`}

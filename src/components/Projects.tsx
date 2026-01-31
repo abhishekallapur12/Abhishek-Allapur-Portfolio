@@ -12,7 +12,7 @@ const projects = [
     skills: ["HTML.png", "CSS.png", "Javascript.svg", "Tailwind.png", "Vercel.svg"],
     live: "https://www.hawkaerosystem.co.uk/",
     github: "https://github.com/abhishekallapur12/Web-OS",
-    bgImage: "./projects/image.png",
+    bgImage: "./public/image.png",
   },
   {
     id: "project2",
@@ -23,7 +23,7 @@ const projects = [
     skills: ["HTML.png", "CSS.png", "Javascript.svg", "Tailwind.png", "Vercel.svg"],
     live: "https://web-os-one-iota.vercel.app/",
     github: "https://github.com/abhishekallapur12/Web-OS",
-    bgImage: "/projects/12.png",
+    bgImage: "/public/12.png",
   },
   {
     id: "project3",
@@ -33,7 +33,7 @@ const projects = [
     skills: ["HTML.png", "CSS.png", "Javascript.svg", "Vercel.svg"],
     live: "",
     github: "https://github.com/abhishekallapur12",
-    bgImage: "/projects/pr4.png",
+    bgImage: "/public/pr4.png",
   },
   {
     id: "project4",
@@ -44,7 +44,7 @@ const projects = [
     skills: ["NextJsCircle.png", "Tailwind.png", "Vercel.svg"],
     live: "",
     github: "https://github.com/abhishekallapur12",
-    bgImage: "/projects/Pr3.png",
+    bgImage: "/public/Pr3.png",
   },
 ];
 
