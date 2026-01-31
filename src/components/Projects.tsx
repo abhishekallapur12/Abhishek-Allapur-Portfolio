@@ -30,7 +30,7 @@ const projects = [
     number: "03",
     title: "CARCARE",
     description: "A Website to generate Strong Passwords.",
-    skills: ["HTML.png", "CSS.png", "Javascript.svg", "Vercel.svg"],
+    skills: ["HTML.png", "CSS.png", "Javascript.svg", "Tailwind.png", "Vercel.svg"],
     live: "",
     github: "https://github.com/abhishekallapur12",
     bgImage: "/pr4.png",
@@ -41,7 +41,7 @@ const projects = [
     title: "Online Bid",
     description:
       "A architectural website to plan your building or home (Hebrew Language)",
-    skills: ["NextJsCircle.png", "Tailwind.png", "Vercel.svg"],
+    skills: ["HTML.png", "CSS.png", "Javascript.svg", "Tailwind.png", "Vercel.svg"],
     live: "",
     github: "https://github.com/abhishekallapur12",
     bgImage: "/pr3.png",

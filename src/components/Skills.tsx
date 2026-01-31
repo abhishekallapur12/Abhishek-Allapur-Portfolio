@@ -2,19 +2,19 @@ import React from "react";
 import "./Projects.css"; // Ensure this contains your custom styles
 
 const skillIcons = [
-  "/stack/HTML.png",
-  "/stack/CSS.png",
-  "/stack/Javascript.svg",
-  "/stack/React.png",
-  "/stack/NodeJs.svg",
-  "/stack/Tailwind.png",
-  "/stack/Bootstrap.svg",
-  "/stack/Express.png",
-  "/stack/Git.svg",
-  "/stack/MongoDB.svg",
-  "/stack/Vercel.svg",
-  "/stack/Docker.svg",
-  "/stack/Github.svg",
+  "/HTML.png",
+  "/CSS.png",
+  "/Javascript.svg",
+  "/React.png",
+  "/NodeJs.svg",
+  "/Tailwind.png",
+  "/Bootstrap.svg",
+  "/Express.png",
+  "/Git.svg",
+  "/MongoDB.svg",
+  "/Vercel.svg",
+  "/Docker.svg",
+  "/Github.svg",
 ];
 
 const Skills = () => {
@@ -36,7 +36,7 @@ const Skills = () => {
   {/* Video Section */}
   <div className="space2 mt-0">
     <video autoPlay muted loop className="w-[300px] sm:w-[400px] md:w-[500px]">
-      <source src="/stack/cards-video.webm" type="video/webm" />
+      <source src="/cards-video.webm" type="video/webm" />
     </video>
   </div>
 
