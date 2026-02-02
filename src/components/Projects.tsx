@@ -8,10 +8,10 @@ const projects = [
     number: "01",
     title: "Hawk Aerosystem",
     description:
-      "A frontend clone of Razorpay, a popular online payment gateway. The primary goal of this project was to replicate the user interface and key functionalities of Razorpay on the frontend.",
-    skills: ["HTML.png", "CSS.png", "Javascript.svg", "Tailwind.png", "Vercel.svg"],
-    live: "https://www.hawkaerosystem.co.uk/",
-    github: "https://github.com/abhishekallapur12/Web-OS",
+      "Full-stack development of a live corporate website for an aerospace company, covering UI/UX, product pages, responsiveness, and deployment.",
+    skills: ["HTML.png", "CSS.png", "Javascript.svg", "sql.png", "bv.png"],
+    live: "https://www.hawkaerosystem.co.uk/products/p1/",
+  
     bgImage: "/image.png",
   },
   {
@@ -19,8 +19,8 @@ const projects = [
     number: "02",
     title: "WEB-OS",
     description:
-      "A frontend replica of the popular communication platform. Experience the familiar layout, sleek design, and responsive elements.",
-    skills: ["HTML.png", "CSS.png", "Javascript.svg", "Tailwind.png", "Vercel.svg"],
+      "Built a unified web-based workspace combining file management, code editing, terminal access, AI assistance, and a browser with secure authentication and storage.",
+    skills: ["Typescript.svg", "MongoDB.svg", "Git.svg", "Vercel.svg"],
     live: "https://web-os-one-iota.vercel.app/",
     github: "https://github.com/abhishekallapur12/Web-OS",
     bgImage: "/12.png",
@@ -29,8 +29,8 @@ const projects = [
     id: "project3",
     number: "03",
     title: "CARCARE",
-    description: "A Website to generate Strong Passwords.",
-    skills: ["HTML.png", "CSS.png", "Javascript.svg", "Tailwind.png", "Vercel.svg"],
+    description: "Created an AI-powered automotive damage detection system with image-based analysis, garage recommendations, and real-time communication.",
+      skills: ["Typescript.svg", "MongoDB.svg", "oo.png", "Vercel.svg"],
     live: "",
     github: "https://github.com/abhishekallapur12",
     bgImage: "/pr4.png",
@@ -40,8 +40,8 @@ const projects = [
     number: "04",
     title: "Online Bid",
     description:
-      "A architectural website to plan your building or home (Hebrew Language)",
-    skills: [ "HTML.png", "CSS.png", "Javascript.svg", "Tailwind.png", "Vercel.svg "],
+      "Implemented a real-time MERN-based auction system featuring live bidding, product listings, and instant winner notifications.",
+    skills: [ "React.png", "MongoDB.svg", "NodeJs.svg", "Express.png"],
     live: "",
     github: "https://github.com/abhishekallapur12",
     bgImage: "/pr3.png",
